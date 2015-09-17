@@ -37,7 +37,7 @@ class Converter(object):
             conv.run()
     """
 
-    skeleton = r"""\documentclass{article}
+    skeleton = r"""\documentclass[16pt]{article}
                 %s
                 \begin{document}
                 \pagestyle{empty}
